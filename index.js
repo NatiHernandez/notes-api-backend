@@ -32,7 +32,7 @@ var notas = [
 
 
 app.get("/", (_request, response) =>{
-	response.send("<h1> Holis </h1>");
+	response.send("<h1> Bienvenidos :) </h1>");
 });
 
 app.get("/api/notes", (_request, response) =>{
